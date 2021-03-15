@@ -1,0 +1,19 @@
+.debug [class*="col-"]{
+  background-color: pink;
+  border: 1px solid black;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  padding: 8px;
+  font-size: 10px;
+}
+
+.col-6 [ class*="col-"]{
+  background-color: tomato;
+  height: calc(200px - 16px);
+  border: solid 1px white;
+}
+
+
+
+
